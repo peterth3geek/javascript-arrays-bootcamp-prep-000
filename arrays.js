@@ -30,7 +30,7 @@ function destructivelyAddElementToEndOfArray (a, b){
 function accessElementInArray (array, index){
   var array = chocolateBars
   var index = 0
-  return chocolateBars(array)
+  return chocolateBars[array]
 }
 
 function destructivelyRemoveElementFromBeginningOfArray (a) {
