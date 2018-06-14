@@ -6,13 +6,15 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray (chocolateBars, bar){
-  return ['3 Musketeers', ...chocolateBars]
+  var bar = '3 Musketeers'
+  return [bar, ...chocolateBars]
 
 }
 
-function destructivelyAddElementToBeginningOfArray (bar, chocolateBars){
-  return [chocolateBars['Hersey']]
+function destructivelyAddElementToBeginningOfArray (chocolateBars, bar){
+  var bar = 'Hersey'
+  return [chocolateBars[Hersey]]
 
 }
 
-function addElementToEndOfArray
+function addElementToEndOfArray ()
