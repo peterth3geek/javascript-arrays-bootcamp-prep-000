@@ -10,7 +10,9 @@ function addElementToBeginningOfArray (chocolateBars, bar){
 
 }
 
-function destructivelyAddElementToBeginningOfArray (){
+function destructivelyAddElementToBeginningOfArray (bar, chocolateBars){
   return [chocolateBars['Hersey']]
 
 }
+
+function addElementToEndOfArray
