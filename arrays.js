@@ -13,8 +13,16 @@ function addElementToBeginningOfArray (chocolateBars, bar){
 
 function destructivelyAddElementToBeginningOfArray (chocolateBars, bar){
   var bar = 'Hersey'
-  return [chocolateBars[Hersey]]
+  return chocolateBars[bar]
 
 }
 
-function addElementToEndOfArray ()
+function addElementToEndOfArray (){
+  var bar = 'Milky Way'
+  return [...chocolateBars, bar]
+}
+
+function destructivelyAddElementToEndOfArray (chocolateBars, bar){
+  var bar = 'Take 5'
+  return chocolateBars[bar]
+}
