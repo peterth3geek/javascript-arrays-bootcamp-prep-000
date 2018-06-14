@@ -5,24 +5,24 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray (chocolateBars, bar){
+function addElementToBeginningOfArray (a, b){
   var bar = '3 Musketeers'
   return [bar, ...chocolateBars]
 
 }
 
-function destructivelyAddElementToBeginningOfArray (chocolateBars, bar){
+function destructivelyAddElementToBeginningOfArray (a, b){
   var bar = 'Hersey'
   return chocolateBars[bar]
 
 }
 
-function addElementToEndOfArray (){
+function addElementToEndOfArray (a){
   var bar = 'Milky Way'
   return [...chocolateBars, bar]
 }
 
-function destructivelyAddElementToEndOfArray (chocolateBars, bar){
+function destructivelyAddElementToEndOfArray (a, b){
   var bar = 'Take 5'
   return chocolateBars[bar]
 }
